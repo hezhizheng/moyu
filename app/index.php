@@ -8,10 +8,10 @@
  */
 
 require_once __DIR__.'../../vendor/autoload.php';
-require_once __DIR__.'./config.php';
-require_once  __DIR__.'./IntegralInterface.php';
-require_once __DIR__.'./Http.php';
-require_once __DIR__.'./Integral.php';
+require_once __DIR__.'/config.php';
+require_once  __DIR__.'/IntegralInterface.php';
+require_once __DIR__.'/Http.php';
+require_once __DIR__.'/Integral.php';
 
 $c = new Integral();
 
