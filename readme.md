@@ -16,7 +16,7 @@ cd moyu
 composer update -vvv
 
 # 配置文件，设置cookie
-cp app/config.php.conf app/config.php
+cp app/config.php.backup app/config.php
 
 # 运行
 php app/index.php
